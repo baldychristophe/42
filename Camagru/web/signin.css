@@ -1,0 +1,11 @@
+table.signin
+{
+    margin: auto;
+    display: center;
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+td.int
+{
+    text-align: right;
+}

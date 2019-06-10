@@ -1,0 +1,52 @@
+#header 
+{
+    background-color: maroon;
+    box-shadow: inset 0px 2px 37px 14px rgba(250,245,250,1);
+    color:white;
+    text-align:center;
+    padding:5px;
+    letter-spacing: 20px;
+}
+#header span
+{
+    display: inline-block;
+}
+body 
+{
+    min-width: 600px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif
+}
+#formulaire
+{
+    font-size: 120%;
+    letter-spacing: 3px;    
+}
+#signature 
+{
+    font-size: 80%; 
+    font-family: Courier New, Courier, monospace;
+    text-align: right;
+    margin-right: 2vw;
+}
+#home
+{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    margin-left: 2px;
+}
+#home img
+{
+    width: 50px;
+}
+table.main
+{
+    margin: auto;
+    display: center;
+}
+td.int
+{
+    text-align: right;
+}

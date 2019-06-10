@@ -1,0 +1,94 @@
+#header 
+{
+    background-color: maroon;
+    box-shadow: inset 0px 2px 37px 14px rgba(250,245,250,1);
+    color:white;
+    text-align:center;
+    padding:5px;
+    letter-spacing: 20px;
+}
+#header span
+{
+    display: inline-block;
+}
+body 
+{
+    min-width: 600px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif
+}
+#formulaire
+{
+    font-size: 120%;
+    letter-spacing: 3px;    
+}
+#signature 
+{
+    font-size: 80%; 
+    font-family: Courier New, Courier, monospace;
+    text-align: right;
+    margin-right: 2vw;
+}
+#home
+{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    margin-left: 2px;
+}
+#home img
+{
+    width: 50px;
+}
+table.main
+{
+    margin: auto;
+    display: center;
+    border-collapse: collapse;
+    width: 700px;
+}
+td.photo
+{
+    margin: 0;
+    border-bottom: solid;
+    border-width: 1px;
+}
+td.name
+{
+    margin: 0;
+    border-bottom: solid;
+    border-width: 1px; 
+}
+td.cat
+{
+    margin: 0;
+    border-bottom: solid;
+    border-width: 1px; 
+}
+td.prix
+{
+    margin: 0;
+    border-bottom: solid;
+    border-width: 1px;
+    background-color:  rgba(102, 204, 255, 0.3)
+}
+td.quant
+{
+    margin: 0;
+    border-bottom: solid;
+    border-width: 1px; 
+}
+tr.label
+{
+    font-weight: 800;
+    height: 50px;
+}
+input.supp:hover
+{
+    color:  rgb(51, 204, 255)
+}
+#total
+{
+    text-align: right;
+}

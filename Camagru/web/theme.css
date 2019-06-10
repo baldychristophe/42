@@ -1,0 +1,103 @@
+html
+{
+    height: 100%;
+    font-family: Garamond,Baskerville,"Times New Roman",serif;
+}
+body
+{
+    margin:auto;
+}
+
+header
+{
+    background-color: rgb(0, 61, 27);
+    padding: 1.5%;
+    display: flex;
+    margin: auto;
+    color: white;
+    min-width: 600px;
+}
+header h1, h2
+{
+    float: right;
+    width: 40%;
+    margin: auto;
+}
+header h1
+{
+    text-align: left;
+    letter-spacing: 20px;
+    font-weight: 900;
+    font-size: 40px;
+}
+header h2
+{
+    text-align: right;
+    font-weight: 500;
+    font-size: 30px;
+}
+#header_logo
+{
+    margin: auto;
+    float: left;
+    width: 50px;
+}
+.container::after 
+{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+#nav ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,92,34,0.7);
+}
+#nav li 
+{
+    float: left;
+}
+
+#nav a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav a:hover 
+{
+    background-color: rgba(0, 40, 0, 1);
+}
+
+footer
+{
+    text-align: center;
+    font-size: 80%; 
+    font-family: Courier New, Courier, monospace;
+}
+
+#main_wrapper
+{
+    padding: 20px;
+    margin: 20px auto;
+
+    min-width: 600px;
+    max-width: 1000px;
+    width: 80vw;
+
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    height: 900px;
+}
+#message
+{
+    height: 50px;
+    color: red;
+    font-weight: bold;
+}

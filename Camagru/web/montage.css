@@ -1,0 +1,81 @@
+#main
+{
+    float: left;
+    height: 90%;
+    width: 65%;
+    /*border: solid;*/
+}
+#side
+{
+    float: right;
+    height: 90%;
+    width: 30%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#container 
+{
+    margin: 0px auto;
+    width: 95%;
+    height: 50%;
+    border: 2px solid rgba(0, 92, 34, 0.7);
+}
+#div_video 
+{
+    width : 100%;
+    height: 100%;
+    background-color: #666;
+    display: none;
+}
+#div_img 
+{
+    width : 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+}
+#div_empty 
+{
+    width : 100%;
+    height: 100%;
+    display: table;
+}
+#videoElement
+{
+    width : 100%;
+    height: 100%;
+    background-color: black;
+}
+#preview
+{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.button_line
+{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.button_line2
+{
+    text-align: center;
+}
+.side_img
+{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.side_div_wr
+{
+    border: 2px solid rgba(0, 92, 34, 0.7);
+    width: 95%;
+    background-color: white;
+    margin-bottom: 5%;
+}

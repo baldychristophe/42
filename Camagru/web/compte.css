@@ -1,0 +1,13 @@
+#bienvenue
+{
+    height: 50px;
+    color: blue;
+    font-weight: bold;
+}
+table.compte
+{
+    margin: auto;
+    display: center;
+    font-size: 120%;
+    letter-spacing: 3px;
+}

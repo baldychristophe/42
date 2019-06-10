@@ -1,0 +1,15 @@
+table.reinit
+{
+    margin: auto;
+    display: center;
+}
+td.int
+{
+    text-align: right;
+}
+
+td.label
+{    
+    font-size: 120%;
+    letter-spacing: 3px;
+}
